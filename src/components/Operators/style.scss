@@ -1,0 +1,37 @@
+#operators{
+    
+    .orange{
+        color:#ff7f27;
+    }
+    .blue{
+        color:#2a5982;
+    }
+    .green{
+        color:#89c658;
+    }
+    .carat{
+        color: #CC4D52;
+    }
+     .yellow{
+        color: #F2B544;
+    }
+    .magenta{
+        color:#42457B;
+    }
+    .operator_box{
+            background: #fff;
+        box-shadow: 0px 0px 5px;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+    .fa_custom{
+            font-size: 2rem;
+    margin-right: 1rem;
+    }
+@media screen and (max-width: 569px) {
+   .mobile_heading {
+        font-size: 2rem;
+   }
+ }
+    
+}

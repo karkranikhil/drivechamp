@@ -1,0 +1,64 @@
+#header_component{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    .logo_name{
+        font-size: 40px;
+        font-family: fantasy;
+        color: #fff;
+        letter-spacing: 5px;
+    }
+    .header_bg{
+        background: black;
+        min-height: 60px;
+    }
+    .menu_list{
+            list-style: none;
+            margin: 0;
+            font-size: 20px;
+            li{
+                height: 60px;
+                line-height: 60px;
+                color: #fff;
+                padding: 0px 20px;
+                .active{
+                    color:red;
+                }
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+    }
+
+    @media screen and (max-width: 667px) {
+        .logo_name{
+            font-size: 40px;
+            font-family: fantasy;
+            color: #fff;
+            letter-spacing: 5px;
+        }
+        .mobile_dropdown{
+            position: fixed;
+            top: 60px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            background: #000;
+            display: block !important;
+            padding: 1rem;
+        }
+        .menu_list li {
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+            padding: 0px 20px;
+        }
+        .hamberger {
+            width: 35px;
+            height: 5px;
+            background-color: #fff;
+            margin: 6px 0;
+            }
+    }
+}
