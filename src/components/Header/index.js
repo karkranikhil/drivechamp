@@ -20,9 +20,9 @@ const Header = () => {
                     </div>
                     <div className="d-block d-sm-none">
                         {showMenu && <ul className="mobile_dropdown d-sm-flex menu_list">
-                            <li><Link activeclass="active" className="test1" to="/#aboutus">About Drive Champ</Link></li>
-                            <li><Link activeclass="active" className="test1" to="/#operators">Owner Operators</Link></li>
-                            <li><Link activeclass="active" className="test1" to="/#ApplyForm">Application</Link></li>
+                            <li><Link activeclass="active" className="test1" to="/#aboutus" onClick={showHandler}>About Drive Champ</Link></li>
+                            <li><Link activeclass="active" className="test1" to="/#operators" onClick={showHandler}>Owner Operators</Link></li>
+                            <li><Link activeclass="active" className="test1" to="/#ApplyForm" onClick={showHandler}>Application</Link></li>
                         </ul>}
                     </div>
                     <div className="d-none d-sm-block">
